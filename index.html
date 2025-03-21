@@ -7,7 +7,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <img src="" alt="">
+    <header>
+        <h1>Recipe website</h1>
+        <input type="text" id="searchInput" placeholder="Search for a Recipe...">
+    </header>
+    <div class="filters">
+        <button class="filter-btn" data-category="All">All</button>
+        <button class="filter-btn" data-category="Breakfast">Breakfast</button>
+        <button class="filter-btn" data-category="Lunch">Lunch</button>
+        <button class="filter-btn" data-category="Dinner">Dinner</button>
+    </div>
+
+    <div id="recipe-container"></div>
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="index.js"></script>
 </body>
